@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>DOI Repository | NVO987 Research Publications</title>
+
+<meta name="description" content="Official DOI Repository of Nicholas Van-Orton (NVO987).">
+<meta name="author" content="Nicholas Van-Orton">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#050505">
+
+<link rel="canonical" href="https://doi.nvo987.us/">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:Inter,sans-serif;
+background:#050505;
+background:
+radial-gradient(circle at top,#1b1b1b 0%,#080808 45%,#000 100%);
+color:#d8d8d8;
+line-height:1.7;
+overflow-x:hidden;
+}
+
+a{
+text-decoration:none;
+color:inherit;
+}
+
+img{
+max-width:100%;
+display:block;
+}
+
+.container{
+width:min(1180px,92%);
+margin:auto;
+}
+
+header{
+position:fixed;
+top:0;
+left:0;
+right:0;
+height:74px;
+display:flex;
+align-items:center;
+background:rgba(5,5,5,.88);
+backdrop-filter:blur(18px);
+border-bottom:1px solid rgba(212,175,55,.15);
+z-index:1000;
+}
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-family:"Cormorant Garamond",serif;
+font-size:2rem;
+font-weight:700;
+letter-spacing:2px;
+color:#fff;
+}
+
+nav{
+display:flex;
+gap:28px;
+}
+
+nav a{
+color:#d4af37;
+font-weight:600;
+}
+
+nav a:hover{
+color:#fff;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:120px 0 70px;
+text-align:center;
+}
+
+.hero h1{
+font-family:"Cormorant Garamond",serif;
+font-size:clamp(3rem,8vw,6rem);
+color:#fff;
+margin-bottom:20px;
+line-height:1.05;
+}
+
+.hero p{
+max-width:760px;
+margin:auto;
+font-size:1.1rem;
+}
+
+.badge{
+display:inline-block;
+padding:10px 20px;
+border:1px solid rgba(212,175,55,.3);
+border-radius:999px;
+color:#d4af37;
+margin-bottom:30px;
+}
+
+.buttons{
+display:flex;
+justify-content:center;
+gap:18px;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.btn{
+padding:15px 28px;
+border-radius:999px;
+font-weight:600;
+transition:.3s;
+}
+
+.gold{
+background:#d4af37;
+color:#000;
+}
+
+.gold:hover{
+transform:translateY(-3px);
+}
+
+.outline{
+border:1px solid rgba(212,175,55,.35);
+color:#d4af37;
+}
+
+.outline:hover{
+background:rgba(212,175,55,.08);
+}
+
+section{
+padding:90px 0;
+}
+
+.card{
+background:rgba(255,255,255,.03);
+border:1px solid rgba(212,175,55,.12);
+border-radius:22px;
+padding:42px;
+backdrop-filter:blur(18px);
+}
+
+.line{
+width:70px;
+height:4px;
+background:#d4af37;
+border-radius:999px;
+margin-bottom:25px;
+}
+
+.card h2{
+font-family:"Cormorant Garamond",serif;
+font-size:2.4rem;
+margin-bottom:18px;
+color:#fff;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:24px;
+margin-top:35px;
+}
+
+.item{
+background:#101010;
+border:1px solid rgba(212,175,55,.12);
+border-radius:18px;
+padding:25px;
+transition:.3s;
+}
+
+.item:hover{
+border-color:#d4af37;
+transform:translateY(-5px);
+}
+
+.item span{
+display:block;
+margin-bottom:12px;
+color:#d4af37;
+font-size:.82rem;
+font-weight:700;
+letter-spacing:1px;
+}
+
+.item h3{
+font-family:"Cormorant Garamond",serif;
+font-size:1.6rem;
+color:#fff;
+margin-bottom:14px;
+}
+
+.item p{
+margin-bottom:20px;
+}
+
+.item a{
+color:#d4af37;
+word-break:break-word;
+}
+
+@media(max-width:760px){
+
+nav{
+gap:16px;
+font-size:.9rem;
+}
+
+.card{
+padding:28px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="container header">
+
+<div class="logo">NVO987</div>
+
+<nav>
+
+<a href="#publications">Publications</a>
+
+<a href="#identity">Identity</a>
+
+<a href="#footer">Contact</a>
+
+</nav>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<div class="container">
+
+<div class="badge">
+Official Research Publications
+</div>
+
+<h1>
+DOI Repository
+</h1>
+
+<p>
+Persistent Digital Object Identifiers (DOIs), scholarly publications and research outputs published by Nicholas Van-Orton under the NVO987 research ecosystem.
+</p>
+
+<div class="buttons">
+
+<a class="btn gold" href="#publications">
+Browse Publications
+</a>
+
+<a class="btn outline"
+href="https://identity.nvo987.us"
+target="_blank"
+rel="noopener noreferrer">
+Identity Hub
+</a>
+
+</div>
+
+</div>
+
+</section>
+<section id="publications">
+
+<div class="container">
+
+<div class="card">
+
+<div class="line"></div>
+
+<h2>Research Publications</h2>
+
+<p>
+Official DOI records referenced from the NVO987 Digital Identity.
+</p>
+
+<div class="grid">
+
+<div class="item">
+
+<span>SSRN</span>
+
+<h3>
+Color as a Generative Principle in the Work of Sonia Delaunay
+</h3>
+
+<p>
+Research paper exploring the role of color as a generative artistic principle.
+</p>
+
+<a href="https://doi.org/10.2139/ssrn.6007654"
+target="_blank"
+rel="noopener noreferrer">
+https://doi.org/10.2139/ssrn.6007654
+</a>
+
+</div>
+
+<div class="item">
+
+<span>SSRN</span>
+
+<h3>
+Interdisciplinary Foundation Edition
+</h3>
+
+<p>
+Consolidated conceptual and terminological foundation for a child-centered study of the generative role of color.
+</p>
+
+<a href="https://doi.org/10.2139/ssrn.6131506"
+target="_blank"
+rel="noopener noreferrer">
+https://doi.org/10.2139/ssrn.6131506
+</a>
+
+</div>
+
+<div class="item">
+
+<span>OSF PROJECT</span>
+
+<h3>
+Interdisciplinary Framework
+</h3>
+
+<p>
+Open Science Framework project supporting interdisciplinary research.
+</p>
+
+<a href="https://doi.org/10.17605/OSF.IO/CDEKP"
+target="_blank"
+rel="noopener noreferrer">
+https://doi.org/10.17605/OSF.IO/CDEKP
+</a>
+
+</div>
+
+<div class="item">
+
+<span>OSF PROJECT</span>
+
+<h3>
+Sonia Delaunay Project
+</h3>
+
+<p>
+Research project documenting art historical investigations.
+</p>
+
+<a href="https://doi.org/10.17605/OSF.IO/N4K6J"
+target="_blank"
+rel="noopener noreferrer">
+https://doi.org/10.17605/OSF.IO/N4K6J
+</a>
+
+</div>
+
+<div class="item">
+
+<span>OSF PROJECT</span>
+
+<h3>
+Sonia Delaunay Research
+</h3>
+
+<p>
+Supporting datasets, documentation and archival material.
+</p>
+
+<a href="https://doi.org/10.17605/OSF.IO/9JVPD"
+target="_blank"
+rel="noopener noreferrer">
+https://doi.org/10.17605/OSF.IO/9JVPD
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<section id="identity">
+
+<div class="container">
+
+<div class="card">
+
+<div class="line"></div>
+
+<h2>Digital Identity</h2>
+
+<p>
+Every publication published within the NVO987 research ecosystem is connected to the official decentralized identity of Nicholas Van-Orton. This provides persistent attribution across DOI records, research repositories, software projects and future scholarly publications.
+</p>
+
+<div class="item" style="margin-top:30px;">
+
+<span>DID WEB</span>
+
+<h3>
+did:web:identity.nvo987.us
+</h3>
+
+<p>
+Verified decentralized identity serving as the canonical reference for the NVO987 Digital Identity ecosystem. The Identity Hub connects scholarly publications, Open Science Framework projects, persistent identifiers and future research outputs.
+</p>
+
+<a href="https://identity.nvo987.us"
+target="_blank"
+rel="noopener noreferrer">
+https://identity.nvo987.us
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer id="footer">
+
+<div class="container">
+
+<div class="card">
+
+<div class="line"></div>
+
+<h2>NVO987</h2>
+
+<p>
+Official DOI Repository for scholarly publications, interdisciplinary research and persistent digital identity.
+</p>
+
+<div class="grid">
+
+<div class="item">
+
+<span>CONTACT</span>
+
+<p>
+
+<a href="mailto:contact@nexarium.us">
+contact@nexarium.us
+</a>
+
+<br><br>
+
+<a href="mailto:nvo@nvo987.us">
+nvo@nvo987.us
+</a>
+
+</p>
+
+</div>
+
+<div class="item">
+
+<span>IDENTITY</span>
+
+<p>
+
+<a href="https://identity.nvo987.us"
+target="_blank"
+rel="noopener noreferrer">
+did:web:identity.nvo987.us
+</a>
+
+</p>
+
+</div>
+
+<div class="item">
+
+<span>REPOSITORY</span>
+
+<p>
+Persistent DOI records, Open Science Framework resources, interdisciplinary publications and digital research infrastructure maintained under the NVO987 research ecosystem.
+</p>
+
+</div>
+
+</div>
+
+<div style="margin-top:40px;padding-top:24px;border-top:1px solid rgba(212,175,55,.15);text-align:center;color:#8f8f8f;">
+
+© 2026 NVO987 • DOI Repository • Research Publications
+
+</div>
+
+</div>
+
+</div>
+
+</footer>
+
+</body>
+</html>
